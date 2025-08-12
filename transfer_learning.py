@@ -16,7 +16,7 @@ from wandb.integration.keras import WandbMetricsLogger, WandbModelCheckpoint
 
 from split_data import split_data
 
-EPOCHS = 150
+EPOCHS = 40
 BATCH_SIZE = 32
 IMG_SIZE = (255, 255)
 SEED = 42
