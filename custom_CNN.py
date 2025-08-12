@@ -1,9 +1,5 @@
 import os
 
-from wandb.integration.keras import WandbCallback
-
-import wandb
-
 os.environ["KERAS_BACKEND"] = "tensorflow"
 from contextlib import redirect_stdout
 from datetime import datetime
@@ -58,8 +54,7 @@ def train_model(model, train_generator, validation_generator):
         validation_data=validation_generator,
         epochs=30,
         callbacks=[EarlyStopping(patience=5, restore_best_weights=True),
-                   ModelCheckpoint("best_model_1.keras", save_best_only=True),
-                   WandbCallback()]
+                   ModelCheckpoint("best_model_1.keras", save_best_only=True)]
     )
 
     return model
