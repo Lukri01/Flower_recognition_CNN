@@ -1,0 +1,20 @@
+Found 2918 files belonging to 5 classes.
+Found 623 files belonging to 5 classes.
+Found 631 files belonging to 5 classes.
+wandb: WARNING WandbCallback is deprecated and will be removed in a future release. Please use the WandbMetricsLogger, WandbModelCheckpoint, and WandbEvalCallback callbacks instead. See https://docs.wandb.ai/guides/integrations/keras for more information.
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+Epoch 1/3
+Traceback (most recent call last):
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 149, in <module>
+    main()
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 143, in main
+    model = train_model(model, train_ds, val_ds, class_names)
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 91, in train_model
+    model.fit(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\wandb\integration\keras\keras.py", line 663, in on_train_batch_end
+    wandb.run.summary["graph"] = wandb.Graph.from_keras(self.model)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\wandb\sdk\data_types\graph.py", line 357, in from_keras
+    for in_layer in _nest(in_node.inbound_layers):
+AttributeError: 'Node' object has no attribute 'inbound_layers'

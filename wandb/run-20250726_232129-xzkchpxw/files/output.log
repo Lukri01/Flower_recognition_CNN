@@ -1,0 +1,101 @@
+Found 2918 files belonging to 5 classes.
+Found 623 files belonging to 5 classes.
+Found 631 files belonging to 5 classes.
+wandb: WARNING When using `save_best_only`, ensure that the `filepath` argument contains formatting placeholders like `{epoch:02d}` or `{batch:02d}`. This ensures correct interpretation of the logged artifacts.
+Epoch 1/40
+Traceback (most recent call last):
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 151, in <module>
+    main()
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 145, in main
+    model = train_model(model, train_ds, val_ds, class_names)
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 92, in train_model
+    model.fit(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 377, in fit
+    logs = self.train_function(iterator)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 220, in function
+    opt_outputs = multi_step_on_iterator(iterator)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 833, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 889, in _call
+    self._initialize(args, kwds, add_initializers_to=initializers)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 696, in _initialize
+    self._concrete_variable_creation_fn = tracing_compilation.trace_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 178, in trace_function
+    concrete_function = _maybe_define_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 283, in _maybe_define_function
+    concrete_function = _create_concrete_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 310, in _create_concrete_function
+    traced_func_graph = func_graph_module.func_graph_from_py_func(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\framework\func_graph.py", line 1060, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 599, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\autograph_util.py", line 41, in autograph_handler
+    return api.converted_call(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 339, in converted_call
+    return _call_unconverted(f, args, kwargs, options)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 459, in _call_unconverted
+    return f(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 643, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 133, in multi_step_on_iterator
+    one_step_on_data(iterator.get_next())
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 833, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 906, in _call
+    return tracing_compilation.call_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 132, in call_function
+    function = trace_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 178, in trace_function
+    concrete_function = _maybe_define_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 283, in _maybe_define_function
+    concrete_function = _create_concrete_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 310, in _create_concrete_function
+    traced_func_graph = func_graph_module.func_graph_from_py_func(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\framework\func_graph.py", line 1060, in func_graph_from_py_func
+    func_outputs = python_func(*func_args, **func_kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 599, in wrapped_fn
+    out = weak_wrapped_fn().__wrapped__(*args, **kwds)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\autograph_util.py", line 41, in autograph_handler
+    return api.converted_call(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 331, in converted_call
+    return _call_unconverted(f, args, kwargs, options, False)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 459, in _call_unconverted
+    return f(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 643, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 114, in one_step_on_data
+    outputs = self.distribute_strategy.run(step_function, args=(data,))
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\distribute\distribute_lib.py", line 1673, in run
+    return self._extended.call_for_each_replica(fn, args=args, kwargs=kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\distribute\distribute_lib.py", line 3263, in call_for_each_replica
+    return self._call_for_each_replica(fn, args, kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\distribute\distribute_lib.py", line 4061, in _call_for_each_replica
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 643, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 78, in train_step
+    gradients = tape.gradient(loss, trainable_weights)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\backprop.py", line 1066, in gradient
+    flat_grad = imperative_grad.imperative_grad(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\imperative_grad.py", line 67, in imperative_grad
+    return pywrap_tfe.TFE_Py_TapeGradient(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\backprop.py", line 148, in _gradient_function
+    return grad_fn(mock_op, *out_grads)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\ops\nn_grad.py", line 574, in _Conv2DGrad
+    data_format = op.get_attr("data_format")
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\backprop.py", line 106, in get_attr
+    return make_attr(typ, self.attrs[i + 1])
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\backprop.py", line 87, in make_attr
+    return nest.map_structure(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\util\nest.py", line 628, in map_structure
+    return nest_util.map_structure(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\util\nest_util.py", line 967, in map_structure
+    def map_structure(modality, func, *structure, **kwargs):
+KeyboardInterrupt

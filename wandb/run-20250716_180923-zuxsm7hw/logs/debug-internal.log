@@ -1,0 +1,14 @@
+{"time":"2025-07-16T18:09:23.8360336+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T18:09:24.3062616+02:00","level":"INFO","msg":"stream: created new stream","id":"zuxsm7hw"}
+{"time":"2025-07-16T18:09:24.3062616+02:00","level":"INFO","msg":"stream: started","id":"zuxsm7hw"}
+{"time":"2025-07-16T18:09:24.3062616+02:00","level":"INFO","msg":"handler: started","stream_id":"zuxsm7hw"}
+{"time":"2025-07-16T18:09:24.3062616+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"zuxsm7hw"}
+{"time":"2025-07-16T18:09:24.3062616+02:00","level":"INFO","msg":"sender: started","stream_id":"zuxsm7hw"}
+{"time":"2025-07-16T18:18:57.8546496+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/lukaskr-universit-t-klagenfurt/flower-classification/zuxsm7hw/file_stream\": read tcp 192.168.1.195:60674->35.186.228.49:443: wsarecv: An existing connection was forcibly closed by the remote host."}
+{"time":"2025-07-16T18:20:02.5176275+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_zuxsm7hw_model","runtime_seconds":9.8379619},{"desc":"uploading history steps 29-29, summary, console lines 63-63","runtime_seconds":7.0324723},{"desc":"updating run metadata","runtime_seconds":1.0314176}],"total_operations":3}}
+{"time":"2025-07-16T18:20:47.0350235+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T18:20:47.552162+02:00","level":"INFO","msg":"stream: closing","id":"zuxsm7hw"}
+{"time":"2025-07-16T18:20:47.552162+02:00","level":"INFO","msg":"sender: closed","stream_id":"zuxsm7hw"}
+{"time":"2025-07-16T18:20:47.552162+02:00","level":"INFO","msg":"handler: closed","stream_id":"zuxsm7hw"}
+{"time":"2025-07-16T18:20:47.5527201+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zuxsm7hw"}
+{"time":"2025-07-16T18:20:47.5527201+02:00","level":"INFO","msg":"stream: closed","id":"zuxsm7hw"}

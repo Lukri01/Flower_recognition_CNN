@@ -1,0 +1,32 @@
+Found 2918 files belonging to 5 classes.
+Found 623 files belonging to 5 classes.
+Found 631 files belonging to 5 classes.
+Downloading data from https://storage.googleapis.com/keras-applications/efficientnetb1_notop.h5
+[1m27018416/27018416[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m3s[0m 0us/step
+wandb: WARNING When using `save_best_only`, ensure that the `filepath` argument contains formatting placeholders like `{epoch:02d}` or `{batch:02d}`. This ensures correct interpretation of the logged artifacts.
+Epoch 1/40
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m210s[0m 2s/step - accuracy: 0.2930 - loss: 1.5974 - val_accuracy: 0.6388 - val_loss: 1.2009
+Epoch 2/40
+[1m53/92[0m [32m━━━━━━━━━━━[0m[37m━━━━━━━━━[0m [1m1:14[0m 2s/step - accuracy: 0.5436 - loss: 1.2227
+Traceback (most recent call last):
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 151, in <module>
+    main()
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 145, in main
+    model = train_model(model, train_ds, val_ds, class_names)
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 92, in train_model
+    model.fit(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 378, in fit
+    callbacks.on_train_batch_end(step, logs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\callbacks\callback_list.py", line 172, in on_train_batch_end
+    self._on_train_batch_end(batch, logs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\callbacks\callback_list.py", line 194, in _on_train_batch_end
+    callback.on_train_batch_end(batch, logs=logs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\callbacks\progbar_logger.py", line 58, in on_train_batch_end
+    self._update_progbar(batch, logs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\callbacks\progbar_logger.py", line 95, in _update_progbar
+    self.progbar.update(self.seen, list(logs.items()), finalize=False)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\utils\progbar.py", line 105, in update
+    now = time.time()
+KeyboardInterrupt

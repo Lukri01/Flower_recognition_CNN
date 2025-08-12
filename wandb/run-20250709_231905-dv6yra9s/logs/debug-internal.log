@@ -1,0 +1,15 @@
+{"time":"2025-07-09T23:19:05.9052364+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-09T23:19:06.3002995+02:00","level":"INFO","msg":"stream: created new stream","id":"dv6yra9s"}
+{"time":"2025-07-09T23:19:06.3002995+02:00","level":"INFO","msg":"stream: started","id":"dv6yra9s"}
+{"time":"2025-07-09T23:19:06.3002995+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"dv6yra9s"}
+{"time":"2025-07-09T23:19:06.3002995+02:00","level":"INFO","msg":"sender: started","stream_id":"dv6yra9s"}
+{"time":"2025-07-09T23:19:06.3002995+02:00","level":"INFO","msg":"handler: started","stream_id":"dv6yra9s"}
+{"time":"2025-07-09T23:22:24.6684842+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_dv6yra9s_model","runtime_seconds":70.6655981,"subtasks":[{"desc":"wandb_model.keras","runtime_seconds":27.4089379,"progress":"6.1MB/16.3MB"}]},{"desc":"uploading artifact run_dv6yra9s_model","runtime_seconds":15.5751718},{"desc":"uploading output.log","runtime_seconds":0.4771914,"progress":"1.7KB/1.7KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.4771914,"progress":"290B/290B"}],"total_operations":4}}
+{"time":"2025-07-09T23:23:24.888225+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_dv6yra9s_model","runtime_seconds":130.8853389,"subtasks":[{"desc":"wandb_model.keras","runtime_seconds":87.6286787,"progress":"15.8MB/16.3MB"}]},{"desc":"uploading artifact run_dv6yra9s_model","runtime_seconds":75.7949126}],"total_operations":2}}
+{"time":"2025-07-09T23:24:25.1426788+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_dv6yra9s_model","runtime_seconds":136.0493664,"subtasks":[{"desc":"wandb_model.keras","runtime_seconds":51.7243583,"progress":"14.9MB/16.3MB"}]}],"total_operations":1}}
+{"time":"2025-07-09T23:24:32.880763+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-09T23:24:33.3454752+02:00","level":"INFO","msg":"stream: closing","id":"dv6yra9s"}
+{"time":"2025-07-09T23:24:33.3454752+02:00","level":"INFO","msg":"handler: closed","stream_id":"dv6yra9s"}
+{"time":"2025-07-09T23:24:33.3454752+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dv6yra9s"}
+{"time":"2025-07-09T23:24:33.3454752+02:00","level":"INFO","msg":"sender: closed","stream_id":"dv6yra9s"}
+{"time":"2025-07-09T23:24:33.3454752+02:00","level":"INFO","msg":"stream: closed","id":"dv6yra9s"}

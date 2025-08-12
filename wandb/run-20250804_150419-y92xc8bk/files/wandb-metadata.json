@@ -1,0 +1,24 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-08-04T13:04:19.584395Z",
+  "program": "C:\\Users\\lukas\\PycharmProjects\\Flower_recodnition_CNN\\custom_CNN.py",
+  "codePath": "custom_CNN.py",
+  "codePathLocal": "custom_CNN.py",
+  "email": "lukaskr@edu.aau.at",
+  "root": "C:\\Users\\lukas\\PycharmProjects\\Flower_recodnition_CNN",
+  "host": "DESKTOP-0QVFUMH",
+  "executable": "C:\\Users\\lukas\\anaconda3\\envs\\Flower_recognition_CNN\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "511060209664",
+      "used": "466347712512"
+    }
+  },
+  "memory": {
+    "total": "16872415232"
+  },
+  "writerId": "x0nt4gha52z2nsgela44csazv8a207wg"
+}

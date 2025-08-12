@@ -1,0 +1,14 @@
+{"time":"2025-07-16T18:09:14.6641225+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-16T18:09:15.079971+02:00","level":"INFO","msg":"stream: created new stream","id":"m4bh00ck"}
+{"time":"2025-07-16T18:09:15.079971+02:00","level":"INFO","msg":"stream: started","id":"m4bh00ck"}
+{"time":"2025-07-16T18:09:15.079971+02:00","level":"INFO","msg":"handler: started","stream_id":"m4bh00ck"}
+{"time":"2025-07-16T18:09:15.079971+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"m4bh00ck"}
+{"time":"2025-07-16T18:09:15.079971+02:00","level":"INFO","msg":"sender: started","stream_id":"m4bh00ck"}
+{"time":"2025-07-16T18:25:13.0457381+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-07-16T18:44:48.817868+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run_m4bh00ck_model","runtime_seconds":12.5397883,"subtasks":[{"desc":"wandb_model.keras","runtime_seconds":11.4184344,"progress":"5.5MB/16.3MB"}]},{"desc":"uploading history steps 29-29, summary, console lines 63-64","runtime_seconds":2.9459046}],"total_operations":2}}
+{"time":"2025-07-16T18:45:16.8519101+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-16T18:45:17.3565978+02:00","level":"INFO","msg":"stream: closing","id":"m4bh00ck"}
+{"time":"2025-07-16T18:45:17.3565978+02:00","level":"INFO","msg":"handler: closed","stream_id":"m4bh00ck"}
+{"time":"2025-07-16T18:45:17.3565978+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"m4bh00ck"}
+{"time":"2025-07-16T18:45:17.3565978+02:00","level":"INFO","msg":"sender: closed","stream_id":"m4bh00ck"}
+{"time":"2025-07-16T18:45:17.3565978+02:00","level":"INFO","msg":"stream: closed","id":"m4bh00ck"}

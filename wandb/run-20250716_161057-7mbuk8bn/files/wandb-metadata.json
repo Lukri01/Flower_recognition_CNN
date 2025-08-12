@@ -1,0 +1,24 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.10.18",
+  "startedAt": "2025-07-16T14:10:57.899829Z",
+  "program": "C:\\Users\\lukas\\PycharmProjects\\Flower_recodnition_CNN\\transfer_learning.py",
+  "codePath": "transfer_learning.py",
+  "codePathLocal": "transfer_learning.py",
+  "email": "lukaskr@edu.aau.at",
+  "root": "C:\\Users\\lukas\\PycharmProjects\\Flower_recodnition_CNN",
+  "host": "DESKTOP-0QVFUMH",
+  "executable": "C:\\Users\\lukas\\anaconda3\\envs\\Flower_recognition_CNN\\python.exe",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "511060209664",
+      "used": "496852729856"
+    }
+  },
+  "memory": {
+    "total": "16872415232"
+  },
+  "writerId": "x8tlc7gocqh65rueg9b3v610t97co57c"
+}

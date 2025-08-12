@@ -1,0 +1,11 @@
+Found 2918 files belonging to 5 classes.
+Found 623 files belonging to 5 classes.
+Found 631 files belonging to 5 classes.
+Traceback (most recent call last):
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 152, in <module>
+    main()
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 145, in main
+    model = define_transfer_learning_model(num_classes=len(class_names))
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 76, in define_transfer_learning_model
+    x = layers.GlobalAveragePooling2D()(x)
+UnboundLocalError: local variable 'x' referenced before assignment

@@ -1,0 +1,13 @@
+{"time":"2025-07-26T23:22:52.4732111+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-07-26T23:22:52.876433+02:00","level":"INFO","msg":"stream: created new stream","id":"sys2winf"}
+{"time":"2025-07-26T23:22:52.8769914+02:00","level":"INFO","msg":"stream: started","id":"sys2winf"}
+{"time":"2025-07-26T23:22:52.8769914+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"sys2winf"}
+{"time":"2025-07-26T23:22:52.8769914+02:00","level":"INFO","msg":"sender: started","stream_id":"sys2winf"}
+{"time":"2025-07-26T23:22:52.8769914+02:00","level":"INFO","msg":"handler: started","stream_id":"sys2winf"}
+{"time":"2025-07-27T00:36:11.0011282+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-07-27T00:36:11.3180893+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 84-103","runtime_seconds":0.3144203}],"total_operations":1}}
+{"time":"2025-07-27T00:36:11.4950213+02:00","level":"INFO","msg":"stream: closing","id":"sys2winf"}
+{"time":"2025-07-27T00:36:11.4956476+02:00","level":"INFO","msg":"handler: closed","stream_id":"sys2winf"}
+{"time":"2025-07-27T00:36:11.4956476+02:00","level":"INFO","msg":"sender: closed","stream_id":"sys2winf"}
+{"time":"2025-07-27T00:36:11.4956476+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sys2winf"}
+{"time":"2025-07-27T00:36:11.4956476+02:00","level":"INFO","msg":"stream: closed","id":"sys2winf"}

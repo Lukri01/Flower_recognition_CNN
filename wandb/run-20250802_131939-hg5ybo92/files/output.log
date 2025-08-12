@@ -1,0 +1,44 @@
+Found 2918 files belonging to 5 classes.
+Found 623 files belonging to 5 classes.
+Found 631 files belonging to 5 classes.
+Downloading data from https://storage.googleapis.com/keras-applications/efficientnetb3_notop.h5
+[1m43941136/43941136[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m7s[0m 0us/step
+wandb: WARNING When using `save_best_only`, ensure that the `filepath` argument contains formatting placeholders like `{epoch:02d}` or `{batch:02d}`. This ensures correct interpretation of the logged artifacts.
+Epoch 1/40
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m104s[0m 1s/step - accuracy: 0.3048 - loss: 1.5597 - val_accuracy: 0.6148 - val_loss: 1.1872
+Epoch 2/40
+[1m92/92[0m [32m━━━━━━━━━━━━━━━━━━━━[0m[37m[0m [1m106s[0m 1s/step - accuracy: 0.5813 - loss: 1.1680 - val_accuracy: 0.7287 - val_loss: 0.9286
+Epoch 3/40
+[1m49/92[0m [32m━━━━━━━━━━[0m[37m━━━━━━━━━━[0m [1m46s[0m 1s/step - accuracy: 0.6954 - loss: 0.9859
+Traceback (most recent call last):
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 151, in <module>
+    main()
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 145, in main
+    model = train_model(model, train_ds, val_ds, class_names)
+  File "C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py", line 93, in train_model
+    model.fit(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 377, in fit
+    logs = self.train_function(iterator)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 220, in function
+    opt_outputs = multi_step_on_iterator(iterator)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\util\traceback_utils.py", line 150, in error_handler
+    return fn(*args, **kwargs)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 833, in __call__
+    result = self._call(*args, **kwds)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\polymorphic_function.py", line 878, in _call
+    results = tracing_compilation.call_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\tracing_compilation.py", line 139, in call_function
+    return function._call_flat(  # pylint: disable=protected-access
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\concrete_function.py", line 1322, in _call_flat
+    return self._inference_function.call_preflattened(args)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\atomic_function.py", line 216, in call_preflattened
+    flat_outputs = self.call_flat(*args)
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\polymorphic_function\atomic_function.py", line 251, in call_flat
+    outputs = self._bound_context.call_function(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\context.py", line 1688, in call_function
+    outputs = execute.execute(
+  File "C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\lib\site-packages\tensorflow\python\eager\execute.py", line 53, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+KeyboardInterrupt

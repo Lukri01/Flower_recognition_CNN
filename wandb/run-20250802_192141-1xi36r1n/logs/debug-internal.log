@@ -1,0 +1,19 @@
+{"time":"2025-08-02T19:21:41.6569271+02:00","level":"INFO","msg":"stream: starting","core version":"0.21.0"}
+{"time":"2025-08-02T19:21:42.0017591+02:00","level":"INFO","msg":"stream: created new stream","id":"1xi36r1n"}
+{"time":"2025-08-02T19:21:42.0017591+02:00","level":"INFO","msg":"stream: started","id":"1xi36r1n"}
+{"time":"2025-08-02T19:21:42.0017591+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"1xi36r1n"}
+{"time":"2025-08-02T19:21:42.0017591+02:00","level":"INFO","msg":"handler: started","stream_id":"1xi36r1n"}
+{"time":"2025-08-02T19:21:42.0017591+02:00","level":"INFO","msg":"sender: started","stream_id":"1xi36r1n"}
+{"time":"2025-08-02T20:03:15.3877898+02:00","level":"ERROR","msg":"error adding file to cache","err":"write C:\\Users\\lukas\\AppData\\Local\\wandb\\artifacts\\tmp\\908589717: There is not enough space on the disk."}
+{"time":"2025-08-02T20:07:59.3662472+02:00","level":"ERROR","msg":"error adding file to cache","err":"write C:\\Users\\lukas\\AppData\\Local\\wandb\\artifacts\\tmp\\4003386217: There is not enough space on the disk."}
+{"time":"2025-08-02T20:09:35.9572378+02:00","level":"ERROR","msg":"error adding file to cache","err":"write C:\\Users\\lukas\\AppData\\Local\\wandb\\artifacts\\tmp\\1724296101: There is not enough space on the disk."}
+{"time":"2025-08-02T20:11:12.275254+02:00","level":"ERROR","msg":"error adding file to cache","err":"write C:\\Users\\lukas\\AppData\\Local\\wandb\\artifacts\\tmp\\2287377889: There is not enough space on the disk."}
+{"time":"2025-08-02T20:14:22.1972431+02:00","level":"ERROR","msg":"error adding file to cache","err":"write C:\\Users\\lukas\\AppData\\Local\\wandb\\artifacts\\tmp\\4241946160: There is not enough space on the disk."}
+{"time":"2025-08-02T20:25:23.8353458+02:00","level":"ERROR","msg":"error adding file to cache","err":"write C:\\Users\\lukas\\AppData\\Local\\wandb\\artifacts\\tmp\\2412853604: There is not enough space on the disk."}
+{"time":"2025-08-02T20:55:11.0033382+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-08-02T20:55:11.2653319+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-08-02T20:55:11.2744812+02:00","level":"INFO","msg":"stream: closing","id":"1xi36r1n"}
+{"time":"2025-08-02T20:55:11.2744812+02:00","level":"INFO","msg":"sender: closed","stream_id":"1xi36r1n"}
+{"time":"2025-08-02T20:55:11.2744812+02:00","level":"INFO","msg":"handler: closed","stream_id":"1xi36r1n"}
+{"time":"2025-08-02T20:55:11.2744812+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1xi36r1n"}
+{"time":"2025-08-02T20:55:11.2750254+02:00","level":"INFO","msg":"stream: closed","id":"1xi36r1n"}

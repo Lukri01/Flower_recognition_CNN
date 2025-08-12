@@ -1,0 +1,72 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            2l9cte1wdlvvb7ah05u85k19lcdddeuw:
+                codePath: transfer_learning.py
+                codePathLocal: transfer_learning.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511060209664"
+                        used: "506719969280"
+                email: lukaskr@edu.aau.at
+                executable: C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\python.exe
+                host: DESKTOP-0QVFUMH
+                memory:
+                    total: "16872415232"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\transfer_learning.py
+                python: CPython 3.10.18
+                root: C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN
+                startedAt: "2025-08-02T17:21:41.398067Z"
+                writerId: 2l9cte1wdlvvb7ah05u85k19lcdddeuw
+        m:
+            - "1": epoch/epoch
+              "6":
+                - 3
+              "7": []
+            - "2": epoch/*
+              "5": 1
+              "6":
+                - 1
+              "7": []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 2
+                - 7
+                - 16
+                - 38
+                - 39
+            "4": 3.10.18
+            "5": 0.21.0
+            "8":
+                - 3
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 32
+epochs:
+    value: 60
+img_size:
+    value:
+        - 255
+        - 255
+learning_rate:
+    value: 0.0001
+model:
+    value: EfficientNetB1
+optimizer:
+    value: adam

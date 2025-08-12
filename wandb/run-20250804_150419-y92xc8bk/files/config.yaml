@@ -1,0 +1,64 @@
+_wandb:
+    value:
+        cli_version: 0.21.0
+        e:
+            x0nt4gha52z2nsgela44csazv8a207wg:
+                codePath: custom_CNN.py
+                codePathLocal: custom_CNN.py
+                cpu_count: 4
+                cpu_count_logical: 8
+                disk:
+                    /:
+                        total: "511060209664"
+                        used: "466347712512"
+                email: lukaskr@edu.aau.at
+                executable: C:\Users\lukas\anaconda3\envs\Flower_recognition_CNN\python.exe
+                host: DESKTOP-0QVFUMH
+                memory:
+                    total: "16872415232"
+                os: Windows-10-10.0.26100-SP0
+                program: C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN\custom_CNN.py
+                python: CPython 3.10.18
+                root: C:\Users\lukas\PycharmProjects\Flower_recodnition_CNN
+                startedAt: "2025-08-04T13:04:19.584395Z"
+                writerId: x0nt4gha52z2nsgela44csazv8a207wg
+        m: []
+        python_version: 3.10.18
+        t:
+            "1":
+                - 2
+                - 3
+                - 5
+                - 53
+            "2":
+                - 2
+                - 3
+                - 5
+                - 53
+            "3":
+                - 3
+                - 8
+                - 16
+            "4": 3.10.18
+            "5": 0.21.0
+            "8":
+                - 3
+            "10":
+                - 9
+                - 17
+            "12": 0.21.0
+            "13": windows-amd64
+batch_size:
+    value: 32
+epochs:
+    value: 30
+img_size:
+    value:
+        - 150
+        - 150
+learning_rate:
+    value: 0.001
+model:
+    value: CustomCNN
+optimizer:
+    value: adam
